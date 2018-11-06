@@ -1,0 +1,32 @@
+<html>
+<head>
+<link href="/styling.css" type="text/css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Baloo+Paaji|Poor+Story|Reenie+Beanie|Work+Sans:300,500,700" rel="stylesheet">
+</head>
+
+<body>
+
+ <div id="nav-bar">
+    <a href="/blogs">View all Blogs</a>
+    <a href="/blogs/new">Add New Blog</a>
+</div>
+
+  <h1>Blogs</h1>
+
+  {{#blogs}}
+
+    <h3>{{title}}</h3>
+    <p>{{body}}</p>
+    <p>{{author}}</p>
+
+    {{#comments}}
+      <b>{{banner}}</b>
+      <p>{{description}}</b>
+    {{/comments}}
+
+  {{/blogs}}
+
+
+</body>
+</html>
+

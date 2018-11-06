@@ -1,0 +1,33 @@
+<html>
+<head>
+<link href="/styling.css" type="text/css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Baloo+Paaji|Poor+Story|Reenie+Beanie|Work+Sans:300,500,700" rel="stylesheet">
+
+</head>
+
+
+<body>
+ <div id="nav-bar">
+    <a href="/blogs">View all Blogs</a>
+    <a href="/blogs/new">Add New Blog</a>
+</div>
+
+<div id="body">
+    <h1>Add NEW BLOG</h1>
+
+
+
+    <form id="addNewBlog" action="/blogs" method="POST">
+    <input type="text" name="title" placeholder="Enter Title"/>
+    <input type="type" name="author" placeholder="Enter Author"/>
+    <textarea class="newInput" id="bodyPost" type="text" name="body" placeholder="Enter Body"></textarea>
+
+    <input class="newInput" id="postBtn" type="submit" value="Post"/>
+    </form>
+</div>
+
+</body>
+
+
+
+</html>

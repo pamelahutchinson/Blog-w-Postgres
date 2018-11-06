@@ -1,0 +1,33 @@
+<html>
+<head>
+<link href="/styling.css" type="text/css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Baloo+Paaji|Poor+Story|Reenie+Beanie|Work+Sans:300,500,700" rel="stylesheet">
+</head>
+
+<body>
+
+ <div id="nav-bar">
+    <a href="/blogs">View all Blogs</a>
+    <a href="/blogs/new">Add New Blog</a>
+</div>
+<div id="body">
+<h1>Blogs</h1>
+{{#blogs}}
+
+<div class="showBlog">
+<div class="title">{{title}}</div>
+<div class="author">{{author}}</div>
+<div class="showBody">{{body}}</div>
+<form action="/delete-blog" method="POST">
+    <input type="hidden" name="blogId" value="{{blogid}}"/>
+    <input id="deleteBtn" type="submit" value="Delete" />
+</form>
+</div>
+</div>
+
+{{/blogs}}
+</body>
+
+
+
+</html>

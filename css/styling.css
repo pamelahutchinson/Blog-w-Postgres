@@ -1,0 +1,117 @@
+h1 {
+    margin-top: 50px;
+    display: inline-block;
+    background: #252525;
+    padding: 15px 28px 12px;
+    color: #fff;
+    font-family: 'Poor Story', cursive;
+    font-size: 35px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#addNewBLog{
+    flex-direction: column;
+    align-content: center;
+    font-family: 'Reenie Beanie', cursive;
+    justify-content: center;
+
+}
+
+#addNewBlog input{
+    font-family: 'Baloo Paaji', cursive;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bodyPost {
+    font-family: 'Baloo Paaji', cursive;
+    width: 596px;
+    height: 175px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#body{
+    text-align: center;
+    justify-content: center;
+}
+
+#nav-bar{
+    text-transform: uppercase;
+    font-size:14px;
+    font-family: 'Baloo Paaji', cursive;
+}
+a{
+    margin-left:30px;
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color: #f1c40f;
+}
+
+
+input{
+    width: 596px;
+    padding: 20px 10px;
+    margin-bottom: 30px;
+}
+#postBtn{
+    background-color:black;
+    color:#fff;
+    width: 100px;
+    font-size: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding:10px !important;
+}
+.showBlog{
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+
+#deleteBtn{
+    font-family: 'Baloo Paaji', cursive;
+    background-color:black;
+    color:#fff;
+    width: 100px;
+    font-size: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding:10px !important;
+}
+#deleteBtn:hover{
+    cursor: pointer;
+    background-color:transparent;
+    color:#f1c40f;
+    border: none;
+}
+
+.title{
+    color:#f1c40f;
+    font-size:40px;
+    font-weight:700;
+    margin-bottom: 20px;
+}
+.author{
+    font-size: 20px;
+    font-weight:500;
+    margin-bottom: 20px;
+}
+
+.showBody{
+    font-weight: lighter;
+    font-weight: 300;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right:100px;
+    line-height:150%;
+}
